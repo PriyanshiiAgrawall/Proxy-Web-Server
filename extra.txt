@@ -1,0 +1,28 @@
+Provides POSIX threads (pthreads) for multithreading.
+#include <pthread.h>
+
+Provides POSIX semaphores for synchronization between threads.
+ #include <semaphore.h>
+
+ Provides definitions for socket operations.
+#include <sys/socket.h>
+
+Defines Internet address family and related structures.
+#include <netinet/in.h>
+
+definitions for network database operations.
+#include <netdb.h>
+
+ definitions for internet operations.
+#include <arpa/inet.h>
+
+ Provides access to the POSIX operating system API.
+#include <usistd.h>
+
+ Provides macros related to process termination.
+#include <sys/wait.h>
+
+Sockets and Networking
+sys/socket.h, netinet/in.h, netdb.h, arpa/inet.h:
+These can be replaced by <winsock2.h> and <ws2tcpip.h> in Windows.
+
